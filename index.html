@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="homestyles.css"/>
+    <link rel="icon" type="image/png" href="images/Logo.png" sizes="16x16">
+    <title>Wandertours</title>
+</head>
+<body>
+    <header class="dark">
+        <div class="header__container" id="header__container">
+            <a href="index.html"><img class="wander__logo wandertours" src="images/Logo.png" alt="WANDERTOURS Logo"/></a>
+            <div class="header__text wandertours">WANDERTOURS</div>
+        </div>
+
+        <nav class="nav__bar">
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="destination.html">Destination</a></li>
+                <li><a class="nav-link" href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <div class="mobile-nav">
+            <a class = "menu-icon" onclick = "hamburger()">
+                <div>&#9776;</div>
+            </a>
+        <nav class="mobile_nav_bar" id="mobile_nav_bar">
+            <ul id="menu-links">
+                <li><a class="nav-link2" href="index.html">Home</a></li>
+                <li><a class="nav-link2" href="about.html">About</a></li>
+                <li><a class="nav-link2" href="destination.html">Destination</a></li>
+                <li><a class="nav-link2" href="contact.html">Contacts</a></li>
+                <li><a class="nav-link2" href="book.html">Booking</a></li>
+            </ul>
+            </nav>
+        </div>
+        
+        
+        <div class="book__container">
+            <img class="search_icon" src="images/search_button.png" />
+            <a href="book.html" class="button__text"><div>Book now!</div></a>
+        </div>
+    </header>
+
+    <div id="top" class="first__part">
+        <img class="bg-image" src="images/puerto.png"/>
+        <div class="intro__first">A Few Steps toward your Dream Destination</div>
+        <a href="book.html" class="start"><div>GET STARTED</div></a>
+        <div class="label-position-home"><div class="label home-label">PUERTO PRINCESA, PHILIPPINES</div></div>
+    </div>
+
+    <div class="second__part">
+        <h1>Destination</h1>
+        <div class="destinations-container">
+            <div class="image-container">
+                <a href="destination.html#disney"><div class="image-wrapper">
+                    <img class="destination-image" src="images/disney.png" />
+                    <div class="destination1">DISNEYLAND, HONGKONG</div>
+                </div></a>
+                <a href="destination.html#switzerland"><div class="image-wrapper">
+                    <img class="destination-image" src="images/Switzerland.png" />
+                    <div class="destination2">SWITZERLAND</div>
+                </div></a>
+                <a href="destination.html#venice"><div class="image-wrapper">
+                    <img class="destination-image" src="images/italy.png" />
+                    <div class="destination3">VENICE, ITALY</div>
+                </div></a>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
+    <div class="third__part">
+        <h1>About Us</h1>
+        <div class="about">
+            <div class="title"><a href="about.html"><p>WANDERTOURS</p></a> </div>
+            <div class="description">
+                WANDERTOURS is your gateway to exploring the world. We offer in-depth information about a wide range of destinations and attractions, making it easy for you to uncover exciting new places to visit.<br/><br/>
+                Our website features a diverse array of travel packages designed to fit various interests and budgets. Whether you're dreaming of a peaceful retreat, an exhilarating adventure, or a deep cultural experience, WANDERTOURS provides the tools you need to plan and book your ideal trip.<br/><br/>
+                Let us help you turn your travel aspirations into unforgettable experiences.
+            </div>
+            <video class="about-video" controls autoplay muted>
+                <source src="images/philippines.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>  
+        </div>
+    </div>
+
+    <div class="footer">
+        <img class="footer-image" src="https://i.pinimg.com/564x/3f/3e/64/3f3e64cc240c44b784a732bcaae1947a.jpg" alt="Footer Background" />
+        <a href="#top"><img class="footer__wander" src="images/Logo with Name.png"/></a>
+            <p class="assistance-text">NEED ASSISTANCE? CONTACT US!</p>
+            <div class="logo-container">
+                <div class="logo-wrapper">
+                    <a href="https://www.facebook.com/raly.angelo" target="_blank"><img class="logo" src="images/Facebook.png" alt="Logo_Facebook" /></a>
+                </div>
+                <div class="logo-wrapper">
+                    <a href="https://www.instagram.com/" target="_blank"><img class="logo" src="images/Instagram.png" alt="Logo_Instagram" /></a>
+                </div>
+                <div class="logo-wrapper">
+                    <a href="mailto:randel.angelo10@gmail.com" target="_blank"><img class="logo" src="images/Mail.ru.png" alt="Logo_Mail" /></a>
+                </div>
+                <div class="logo-wrapper">
+                    <a href="https://www.linkedin.com/company/login/" target="_blank"><img class="logo" src="images/LinkedIN.png" alt="Logo_LinkedIN" /></a>
+                </div>
+                <div class="logo-wrapper">
+                    <a href="mailto:randel.angelo10@gmail.com" target="_blank"><img class="logo" src="images/Phone.png" alt="Logo_Phone" /></a>
+                </div>
+            </div>
+            <div class="copyright-text">© Copyright 2024. All rights reserved. Created by Randel Angelo L. Yumul</div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="homestyles.css"/>
+    <link rel="icon" type="image/png" href="images/Logo.png" sizes="16x16">
+    <title>Wandertours</title>
+</head>
+<body>
+    <header class="dark">
+        <div class="header__container" id="header__container">
+            <a href="index.html"><img class="wander__logo wandertours" src="images/Logo.png" alt="WANDERTOURS Logo"/></a>
+            <div class="header__text wandertours">WANDERTOURS</div>
+        </div>
+
+        <nav class="nav__bar">
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="destination.html">Destination</a></li>
+                <li><a class="nav-link" href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <div class="mobile-nav">
+            <a class = "menu-icon" onclick = "hamburger()">
+                <div>&#9776;</div>
+            </a>
+        <nav class="mobile_nav_bar" id="mobile_nav_bar">
+            <ul id="menu-links">
+                <li><a class="nav-link2" href="index.html">Home</a></li>
+                <li><a class="nav-link2" href="about.html">About</a></li>
+                <li><a class="nav-link2" href="destination.html">Destination</a></li>
+                <li><a class="nav-link2" href="contact.html">Contacts</a></li>
+                <li><a class="nav-link2" href="book.html">Booking</a></li>
+            </ul>
+            </nav>
+        </div>
+        
+        
+        <div class="book__container">
+            <img class="search_icon" src="images/search_button.png" />
+            <a href="book.html" class="button__text"><div>Book now!</div></a>
+        </div>
+    </header>
+
+    <div id="top" class="first__part">
+        <img class="bg-image" src="images/mayon.jpg" />
+        
+        <p class="destination">DESTINATION</p>
+        <div class ="first__desc__dest">
+            <p class="destination__desc">Explore our curated selection of destinations, each offering unique experiences and adventures.</p>
+
+            <p class="destination__desc">What We Offer:</p>
+            <ul class="destination__desc__list">
+                <li>Detailed Guides: Find key attractions, local tips, and must-see highlights.</li>
+                <li>Varied Choices: From serene beaches to vibrant cities, discover options that match your interests.</li>   
+            </ul>
+            <p class="destination__desc">Start your journey with us and uncover your next adventure!</p>
+
+        </div>
+        <a href="book.html" class="start-about"><div>GET STARTED</div></a>
+        <div class="label-position-dest"><div class="label dest-label">MAYON VOLCANO, ALBAY, PHILIPPINES</div></div>
+    </div>
+
+    <div class="second__part__dest">
+        <div class="search-container">
+                <input type="search" class="search-bar_dest" placeholder="search">
+                <button class="search-button_dest">Places</button>
+                
+            </div>
+        <div class="destinations-container__dest">
+            <div class="image-container__dest">
+                <div id="disney" class="image-wrapper__dest">
+                    <img class="destination-image__dest" src="images/disney.png" />
+                    <div class="destination4">DISNEYLAND, HONGKONG</div>
+                </div>
+                <div id="switzerland" class="image-wrapper__dest">
+                    <img class="destination-image__dest" src="images/Switzerland.png" />
+                    <div class="destination5">SWITZERLAND</div>
+                </div>
+                <div id="venice" class="image-wrapper__dest">
+                    <img class="destination-image__dest" src="images/italy.png" />
+                    <div class="destination6">VENICE, ITALY</div>
+                </div>
+            </div>
+
+                <div class="destination_labels">
+                    <div class="destlab-height">
+                    <div class="destination__label">DISNEYLAND, HONGKONG</div>
+                    <p class="dlabel_description">Discover the enchantment of Disneyland Hong Kong, where Disney’s beloved characters and stories come to life. Explore themed lands such as Adventureland and Fantasyland, each offering unique attractions and immersive experiences.</p>
+                    <p class="dlabel_description">Enjoy a variety of thrilling rides, captivating shows, and character meet-and-greets. Whether you're seeking excitement or magic, Disneyland Hong Kong provides a memorable adventure for visitors of all ages.</p>
+                    </div>
+                    <div class="destlab-height">
+                    <div class="destination__label">SWITZERLAND</div>
+                    <p class="dlabel_description">Experience the stunning beauty of Switzerland, a country renowned for its breathtaking landscapes and vibrant culture. From the majestic Alps to charming lakeside villages, Switzerland offers a diverse range of natural wonders and picturesque scenery.</p>
+                    <p class="dlabel_description">Immerse yourself in outdoor adventures like skiing, hiking, and scenic train rides. Discover historic cities, world-class museums, and delectable Swiss cuisine, making Switzerland a perfect destination for both relaxation and exploration.</p>
+                    </div>
+                    <div class="destlab-height">
+                    <div class="destination__label">VENICE, ITALY</div>
+                    <p class="dlabel_description">Discover the timeless charm of Venice, Italy’s enchanting city of canals. Wander through its labyrinthine streets, glide along picturesque canals in a gondola, and marvel at iconic landmarks such as St. Mark’s Basilica and the Rialto Bridge.</p>
+                    <p class="dlabel_description">Experience the city’s rich history and vibrant culture, from its historic piazzas to its renowned art and cuisine. Venice offers a unique blend of romance, history, and beauty that captivates visitors from around the world.</p>
+                    </div>
+                </div>
+            </div>
+    
+
+    <div class="footer">
+        <img class="footer-image" src="https://i.pinimg.com/564x/3f/3e/64/3f3e64cc240c44b784a732bcaae1947a.jpg" alt="Footer Background" />
+        <a href="index.html"><img class="footer__wander logodest" src="images/Logo with Name.png"/></a>
+            <p class="assistance-text">NEED ASSISTANCE? CONTACT US!</p>
+            <div class="logo-container">
+                <div class="logo-wrapper">
+                    <a href="https://www.facebook.com/raly.angelo" target="_blank"><img class="logo" src="images/Facebook.png" alt="Logo_Facebook" /></a>
+                </div>
+                <div class="logo-wrapper">
+                    <a href="https://www.instagram.com/" target="_blank"><img class="logo" src="images/Instagram.png" alt="Logo_Instagram" /></a>
+                </div>
+                <div class="logo-wrapper">
+                    <a href="mailto:randel.angelo10@gmail.com" target="_blank"><img class="logo" src="images/Mail.ru.png" alt="Logo_Mail" /></a>
+                </div>
+                <div class="logo-wrapper">
+                    <a href="https://www.linkedin.com/company/login/" target="_blank"><img class="logo" src="images/LinkedIN.png" alt="Logo_LinkedIN" /></a>
+                </div>
+                <div class="logo-wrapper">
+                    <a href="mailto:randel.angelo10@gmail.com" target="_blank"><img class="logo" src="images/Phone.png" alt="Logo_Phone" /></a>
+                </div>
+            </div>
+            <div class="copyright-text">© Copyright 2024. All rights reserved. Created by Randel Angelo L. Yumul</div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
